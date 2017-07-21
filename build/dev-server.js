@@ -5,9 +5,7 @@ var webpack = require("webpack");
 var webpackConfig = require("./dev/webpack.config");
 var app = express();
 var compiler = webpack(webpackConfig);
-
-
-
+ 
 
 var staticPath = path.posix.join("/", "src")
 app.use(staticPath, express.static('src'))

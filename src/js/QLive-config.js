@@ -8,17 +8,17 @@ PageInfo.register({"type":"config","info":function(){
 	*  other:异步模块加载
 	* 
 	* */
-	 var baseURL = "http://localhost:8080/static";
+	 var baseURL = "src";
 	
 	// var baseURL = "http://192.168.2.178:8020/ntq";
 	
 	 var result = {
 	 	
 	 	paths:{
-	 		"jquery":baseURL+"/assets/js/plug/jquery-3.2.0.js",
+	 		"jquery":baseURL+"/js/plug/jquery-3.2.0.js",
 	 	},
 	 	other:{
-	 		"layui":baseURL+"/assets/js/plug/layui/layui.js"
+	 		"layui":baseURL+"/js/plug/layui/layui.js"
 	 	}
 	 	
 	 };

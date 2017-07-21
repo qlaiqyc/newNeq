@@ -1,6 +1,6 @@
 PageInfo.register({"type": "plug","info": function(require) {
 		
-	var request = require( "/static/assets/js/components/common/request");
+	var request = require( "/src/js/components/common/request");
 	var FunUtil = {};
 	
 	FunUtil.rq = function() {

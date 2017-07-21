@@ -9,7 +9,7 @@ PageInfo.register({
 		PageObj.require = {
 			"$": "jquery",
 			"layui": "layui",
-			"api": "/assets/js/components/common/data-api"
+			"api": "/src/js/components/common/data-api"
 		};
 
 		PageObj.page = function () {

@@ -34,7 +34,7 @@ body{background-color:#f3f3f3}
 
 
 /*===主页=== */
-#ntq-index{background:url("../../assets/img/ntq-icon-bg.png") no-repeat;width:100%;min-width:1190px;height:560px;background-size:cover;background-position:center center}
+#ntq-index{background:url("..//img/ntq-icon-bg.png") no-repeat;width:100%;min-width:1190px;height:560px;background-size:cover;background-position:center center}
 .ntq-index-apply{width:50%;color:white;text-align:center;float:left}
 .ntq-index-employ{width:50%;color:white;text-align:center;float:right}
 .ntq-index-employ-btn:hover{opacity:0.7}

@@ -930,7 +930,7 @@
 										FunUtil.Global.Router[nid].require = FunUtil.Global.Page.require;
 										
 										$main.append('<div class="'+id+'">'+Router.data().HtmUtil.layout()+'</div').show();
-										FunUtil.common4GetCSS({"url":"../static/assets/css/"+FunUtil.Global.Router[nid].id+".css","callback":function(){
+										FunUtil.common4GetCSS({"url":"../src/css/"+FunUtil.Global.Router[nid].id+".css","callback":function(){
 											
 											
 											Router.init();
@@ -974,7 +974,7 @@
 								
 								$main.append('<div class="'+id+'">'+Router.data().HtmUtil.layout()+'</div').show();
 								console.log(FunUtil.Global.Router[nid].jid);
-								FunUtil.common4GetCSS({"url":"../static/assets/css/"+FunUtil.Global.Router[nid].id+".css","callback":function(){
+								FunUtil.common4GetCSS({"url":"../src/css/"+FunUtil.Global.Router[nid].id+".css","callback":function(){
 									
 									Router.init();
 									Router.show();
@@ -1086,7 +1086,7 @@
 					//判断是否合法  ？ 映射JS ,否，进入主页
 					var ids = hash.split("?")[0];
 				
-					ids = ids.replace("#/","");
+					ids = ids.replace("#","");
 					var jid = FunUtil.Global.Jids[ids];
 					
 					if(String.HasText(jid)) key = "#"+jid;

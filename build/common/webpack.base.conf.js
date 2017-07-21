@@ -6,6 +6,7 @@ function resolve (dir) {
 
 module.exports = {
   entry: {
+  	app:[]
   },
   resolve: {
     extensions: ['.js',   '.json'],
